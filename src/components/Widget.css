@@ -1,9 +1,9 @@
 .widget {
     position: fixed;
-    top: 5rem; /* Position it at the bottom */
+    top: 9rem; /* Position it at the bottom */
     left: 4.1%; /* Position it on the right */
     width: 20rem; /* Adjust width as needed */
-    height: 40rem; /* Adjust height as needed */
+    height: 30rem; /* Adjust height as needed */
     background-color: #fff8e1;
     border-radius: 15px; /* Curved edges */
     border: 2px solid #000000;
@@ -14,15 +14,22 @@
     align-items: center;
     padding: 10px;
   }
+
+  .widget-text{
+    /* font-weight: bold; */
+    font-size: large;
+    text-align: center;
+    margin-bottom: 40px;
+  }
   
   .widget__icon {
-    margin-bottom: 10px;
+    margin-bottom: 1px;
   }
   
   .widget__content {
     display: flex;
     gap: 0.5rem;
-    width: 100%;
+    width: 95%;
   }
   
   .widget__progress-bar {
@@ -50,4 +57,40 @@
   }
   .stress{
     background-color: rgb(183, 255, 0);
+  }
+  .smiley__icon{
+    margin-top: 10px;
+  }
+
+  .widget__now-playing {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding: 5px;
+    border-top: 1px solid #000;
+    /* width: 100%; */
+  }
+  
+  .album-art {
+    width: 85px; /* Adjust size as needed */
+    height: 85px; /* Adjust size as needed */
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .now-playing__info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .track-name {
+    font-weight: bold;
+  }
+  
+  .artist-name {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  a{
+    text-decoration: none;
   }
