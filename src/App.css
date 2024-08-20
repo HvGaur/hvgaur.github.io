@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Jet Mono;
+  src: url(../public/font/JetBrainsMono[wght].ttf);
+}
+body, html {
+  font-family: Jet Mono;
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.background__main {
+  background-image: url('../public/os_bg.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
