@@ -28,12 +28,14 @@
   
   .widget__content {
     display: flex;
+    justify-content: space-between;
     gap: 0.5rem;
     width: 95%;
   }
   
   .widget__progress-bar {
-    width: 100%;
+    width: 11rem;
+
     border: 2px solid #000000;
     background-color: #e0e0e0; /* Light gray background for the progress bar */
     height: 20px; /* Height of the progress bar */
@@ -50,7 +52,7 @@
     background-color: #8effee ;
   }
   .vol{
-    background-color: rgb(255, 171, 114);
+    background-color: rgb(255, 0, 0);
   }
   .ram{
     background-color: rgb(183, 255, 0);

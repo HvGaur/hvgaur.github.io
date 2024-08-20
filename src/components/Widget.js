@@ -15,21 +15,21 @@ const Widget = () => {
       <div className='widget-text'>Hello!<br />this is my portfolio(kinda)</div>
 
       <div className="widget__content">
-        cpu
+        sleep i had
         <div className="widget__progress-bar">
-          <div className="widget__progress cpu" style={{ width: '15%' }}></div>
+          <div className="widget__progress cpu" style={{ width: '1%' }}></div>
         </div>
       </div>
       <div className="widget__content">
-        ram
+        work done
         <div className="widget__progress-bar">
           <div className="widget__progress ram" style={{ width: '13%' }}></div>
         </div>
       </div>
       <div className="widget__content">
-        vol
+        stress
         <div className="widget__progress-bar">
-          <div className="widget__progress vol" style={{ width: '77%' }}></div>
+          <div className="widget__progress vol" style={{ width: '100%' }}></div>
         </div>
       </div>
 
