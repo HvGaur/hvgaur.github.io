@@ -1,5 +1,4 @@
 {
-  "homepage": "./",
   "name": "hvgaur.github.io",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +11,7 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://hvgaur.github.io",
   "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
