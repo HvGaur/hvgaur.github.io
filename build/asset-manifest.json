@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.0820c359.css",
+    "main.css": "/static/css/main.98841a57.css",
     "main.js": "/static/js/main.5cc959a2.js",
     "static/js/453.9dbba08a.chunk.js": "/static/js/453.9dbba08a.chunk.js",
-    "static/media/os_bg.png": "/static/media/os_bg.13e3aef491b9afef708e.png",
+    "static/media/os_bg.png": "/static/media/os_bg.6465a0361c3305312c25.png",
     "static/media/cheatcodes.jpg": "/static/media/cheatcodes.e549a9b192f804802330.jpg",
     "static/media/JetBrainsMono[wght].ttf": "/static/media/JetBrainsMono[wght].4233307a63824071eae0.ttf",
     "index.html": "/index.html",
-    "main.0820c359.css.map": "/static/css/main.0820c359.css.map",
+    "main.98841a57.css.map": "/static/css/main.98841a57.css.map",
     "main.5cc959a2.js.map": "/static/js/main.5cc959a2.js.map",
     "453.9dbba08a.chunk.js.map": "/static/js/453.9dbba08a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0820c359.css",
+    "static/css/main.98841a57.css",
     "static/js/main.5cc959a2.js"
   ]
 }
