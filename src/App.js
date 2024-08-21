@@ -1,16 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import Header from './components/Header';
-import Widget from './components/Widget';
+import BootScreen from './components/BootScreen';
+import MainContent from '../src/Main/MainContent';
+import About from './pages/About';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
+  const [bootComplete, setBootComplete] = useState(false);
+
+  const handleBootComplete = () => {
+    setBootComplete(true);
+  };
+
   return (
-    <React.Fragment>
-      <Header />
-      <div className='background__main'></div>
-      <Widget />
-    </React.Fragment>
+    <Router>
+      <Routes>
+        {!bootComplete ? (
+          <Route path="/" element={<BootScreen onComplete={handleBootComplete} />} />
+        ) : (
+          <>
+            <Route path="/" element={<MainContent />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/" element={<MainContent />} /> {/* Default route */}
+          </>
+        )}
+      </Routes>
+    </Router>
   );
 }
+
 
 export default App;

@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    position: relative;
+}
+
+.headerr {
+    grid-column: 1 / -1;
+    background-color: #f7f7f7;
+    padding: 0;
+    text-align: center;
+    border-bottom: 2px solid black; /* Line under the header */
+    margin-bottom: 0; /* Ensure no gap between header and content */
+}
+
+.headerr ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.headerr ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.headerr ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    grid-column: 1 / -1;
+    padding: 0;
+    text-align: center;
+    border-bottom: 2px solid black; /* Line between content and footer */
+}
+
+.intro {
+    flex: 1;
+    padding: 20px;
+    border-right: 2px solid black; /* Line between intro and image */
+    position: relative;
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro h1::before,
+.intro h1::after {
+    content: "";
+    flex-grow: 1;
+    height: 2px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.image {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid black; /* Border around the image */
+}
+
+.description {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    border-left: 2px solid black; /* Line between image and description */
+}
+
+.footer {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #f7f7f7;
+    border-top: 2px solid black; /* Line above the footer */
+    margin-top: -2px; /* Ensure no gap between footer and main content */
+}
+
+.footer-left, .footer-right {
+    font-size: 12px;
+    padding: 0 20px;
+}
+
+.footer-left p,
+.footer-right p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer::before,
+.footer::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background-color: black;
+    top: 0;
+}
+
+.footer::before {
+    left: 0;
+}
+
+.footer::after {
+    right: 0;
+}

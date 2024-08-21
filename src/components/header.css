@@ -27,6 +27,6 @@
   margin-right: 0.5rem;
 }
 .links{
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
 }
